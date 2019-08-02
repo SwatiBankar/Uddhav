@@ -1,0 +1,145 @@
+
+swati@swati-PC MINGW64 /c/Users/Pratik wakchaure/workspace/AbstractionConcept
+$ git init
+Initialized empty Git repository in C:/Users/Pratik wakchaure/workspace/AbstractionConcept/.git/
+
+swati@swati-PC MINGW64 /c/Users/Pratik wakchaure/workspace/AbstractionConcept (master)
+$ git config --global user.name "SwatiBankar"
+
+swati@swati-PC MINGW64 /c/Users/Pratik wakchaure/workspace/AbstractionConcept (master)
+$ git config --global user.email "swatibankar88@gmail.com"
+
+swati@swati-PC MINGW64 /c/Users/Pratik wakchaure/workspace/AbstractionConcept (master)
+$ git remote add origin https://github.com/SwatiBankar/AbstractionConcept.git
+
+swati@swati-PC MINGW64 /c/Users/Pratik wakchaure/workspace/AbstractionConcept (master)
+$ git staus
+git: 'staus' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+swati@swati-PC MINGW64 /c/Users/Pratik wakchaure/workspace/AbstractionConcept (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .classpath
+        .project
+        .settings/
+        bin/
+        src/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+swati@swati-PC MINGW64 /c/Users/Pratik wakchaure/workspace/AbstractionConcept (master)
+$ git add .
+
+swati@swati-PC MINGW64 /c/Users/Pratik wakchaure/workspace/AbstractionConcept (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   .classpath
+        new file:   .project
+        new file:   .settings/org.eclipse.jdt.core.prefs
+        new file:   bin/AbstractionProgram/Addition.class
+        new file:   bin/AbstractionProgram/ArithmeticOperation.class
+        new file:   bin/AbstractionProgram/Calculation.class
+        new file:   bin/AbstractionProgram/Contractor.class
+        new file:   bin/AbstractionProgram/CopyByIndex.class
+
+        new file:   bin/AbstractionProgram/Employee.class
+        new file:   bin/AbstractionProgram/FullTimeEmployee.class
+        new file:   bin/AbstractionProgram/Person.class
+        new file:   bin/AbstractionProgram/Salary.class
+        new file:   bin/AbstractionProgram/This1.class
+        new file:   bin/AbstractionProgram/VarFinal.class
+        new file:   bin/AbstractionProgram/circle.class
+        new file:   bin/AbstractionProgram/companyEmployee.class
+        new file:   bin/AbstractionProgram/finalClass.class
+        new file:   bin/AbstractionProgram/shape.class
+        new file:   bin/AbstractionProgram/tcsEmployee.class
+        new file:   src/AbstractionProgram/Addition.java
+        new file:   src/AbstractionProgram/ArithmeticOperation.java
+        new file:   src/AbstractionProgram/Calculation.java
+        new file:   src/AbstractionProgram/Contractor.java
+        new file:   src/AbstractionProgram/CopyByIndex.java
+        new file:   src/AbstractionProgram/Employee.java
+        new file:   src/AbstractionProgram/FullTimeEmployee.java
+        new file:   src/AbstractionProgram/Person.java
+        new file:   src/AbstractionProgram/Salary.java
+        new file:   src/AbstractionProgram/This1.java
+        new file:   src/AbstractionProgram/VarFinal.java
+        new file:   src/AbstractionProgram/circle.java
+        new file:   src/AbstractionProgram/companyEmployee.java
+        new file:   src/AbstractionProgram/f2.java
+        new file:   src/AbstractionProgram/finalClass.java
+        new file:   src/AbstractionProgram/shape.java
+        new file:   src/AbstractionProgram/tcsEmployee.java
+
+
+swati@swati-PC MINGW64 /c/Users/Pratik wakchaure/workspace/AbstractionConcept (master)
+$ git commit -m "First commmit"
+[master (root-commit) 2433f39] First commmit
+ 36 files changed, 414 insertions(+)
+ create mode 100644 .classpath
+ create mode 100644 .project
+ create mode 100644 .settings/org.eclipse.jdt.core.prefs
+ create mode 100644 bin/AbstractionProgram/Addition.class
+ create mode 100644 bin/AbstractionProgram/ArithmeticOperation.class
+ create mode 100644 bin/AbstractionProgram/Calculation.class
+ create mode 100644 bin/AbstractionProgram/Contractor.class
+ create mode 100644 bin/AbstractionProgram/CopyByIndex.class
+ create mode 100644 bin/AbstractionProgram/Employee.class
+ create mode 100644 bin/AbstractionProgram/FullTimeEmployee.class
+ create mode 100644 bin/AbstractionProgram/Person.class
+ create mode 100644 bin/AbstractionProgram/Salary.class
+ create mode 100644 bin/AbstractionProgram/This1.class
+ create mode 100644 bin/AbstractionProgram/VarFinal.class
+ create mode 100644 bin/AbstractionProgram/circle.class
+ create mode 100644 bin/AbstractionProgram/companyEmployee.class
+ create mode 100644 bin/AbstractionProgram/finalClass.class
+ create mode 100644 bin/AbstractionProgram/shape.class
+ create mode 100644 bin/AbstractionProgram/tcsEmployee.class
+ create mode 100644 src/AbstractionProgram/Addition.java
+ create mode 100644 src/AbstractionProgram/ArithmeticOperation.java
+ create mode 100644 src/AbstractionProgram/Calculation.java
+ create mode 100644 src/AbstractionProgram/Contractor.java
+ create mode 100644 src/AbstractionProgram/CopyByIndex.java
+ create mode 100644 src/AbstractionProgram/Employee.java
+ create mode 100644 src/AbstractionProgram/FullTimeEmployee.java
+ create mode 100644 src/AbstractionProgram/Person.java
+ create mode 100644 src/AbstractionProgram/Salary.java
+ create mode 100644 src/AbstractionProgram/This1.java
+ create mode 100644 src/AbstractionProgram/VarFinal.java
+ create mode 100644 src/AbstractionProgram/circle.java
+ create mode 100644 src/AbstractionProgram/companyEmployee.java
+ create mode 100644 src/AbstractionProgram/f2.java
+ create mode 100644 src/AbstractionProgram/finalClass.java
+ create mode 100644 src/AbstractionProgram/shape.java
+ create mode 100644 src/AbstractionProgram/tcsEmployee.java
+
+swati@swati-PC MINGW64 /c/Users/Pratik wakchaure/workspace/AbstractionConcept (master)
+$ git push origin master
+Username for 'https://github.com': SwatiBankar
+Enumerating objects: 43, done.
+Counting objects: 100% (43/43), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (41/41), done.
+Writing objects: 100% (43/43), 12.99 KiB | 1.62 MiB/s, done.
+Total 43 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/SwatiBankar/AbstractionConcept.git
+ * [new branch]      master -> master
+
+swati@swati-PC MINGW64 /c/Users/Pratik wakchaure/workspace/AbstractionConcept (master)
+$
